@@ -1,0 +1,74 @@
+[
+  {
+    "test_group": "Group 1: Indian Alluvial Lookups (Punjab / UP)",
+    "category": "depth",
+    "target_site_no": "CGWB-PB-LUD01",
+    "phrasings": [
+      "What is the groundwater level in Punjab Ludhiana?",
+      "How deep down is the water table in Ludhiana right now?",
+      "Water table depth measurement for Ludhiana CGWB well",
+      "Give me recent groundwater reading in Ludhiana Punjab",
+      "How deep is the tube well water in Ludhiana?"
+    ]
+  },
+  {
+    "test_group": "Group 2: Arid Rajasthan Groundwater & Soil",
+    "category": "location",
+    "target_site_no": "CGWB-RJ-JOD01",
+    "phrasings": [
+      "Tell me about groundwater and soil moisture in Rajasthan",
+      "What is the soil moisture and water table in Jodhpur?",
+      "Comprehensive groundwater and soil report for Jodhpur Rajasthan",
+      "Check soil dryness and groundwater in Jodhpur",
+      "Where is Jodhpur monitoring station and how is the soil?"
+    ]
+  },
+  {
+    "test_group": "Group 3: Maharashtra Basalt Trend & Fluctuation",
+    "category": "trend",
+    "target_site_no": "CGWB-MH-PUN01",
+    "phrasings": [
+      "Show groundwater level trend over time in Pune Maharashtra",
+      "Monsoon recharge and water level trend in Pune Maharashtra",
+      "Has the water table been declining or rising in Pune?",
+      "24 month water level fluctuations in Pune Deccan basalt",
+      "Hydrograph of water table changes for Pune station"
+    ]
+  },
+  {
+    "test_group": "Group 4: Potability & Quality Check in Gangetic Plain",
+    "category": "quality",
+    "target_site_no": "CGWB-UP-VAR01",
+    "phrasings": [
+      "Check drinking water potability in Varanasi Uttar Pradesh",
+      "Is groundwater safe for drinking in Varanasi UP?",
+      "What are the pH, TDS, and nitrate levels in Varanasi water?",
+      "Check chemical potability and contamination status for Varanasi",
+      "Does Varanasi groundwater meet BIS drinking water standards?"
+    ]
+  },
+  {
+    "test_group": "Group 5: US Central Valley Depth Lookups",
+    "category": "depth",
+    "target_site_no": "342500118250001",
+    "phrasings": [
+      "What is the current water level at well 342500118250001?",
+      "How deep down is the water in well 342500118250001 right now?",
+      "Latest water table depth below surface for 342500118250001",
+      "Give me the most recent water level reading for station 342500118250001",
+      "How far down do we have to drill to reach groundwater at 342500118250001?"
+    ]
+  },
+  {
+    "test_group": "Group 6: Historical Trend Disambiguation",
+    "category": "trend",
+    "target_site_no": "293830098255501",
+    "phrasings": [
+      "Show groundwater level trend over time for site 293830098255501",
+      "Has the water table been declining or rising in well 293830098255501?",
+      "Historical fluctuation chart of water level at Edwards Aquifer 293830098255501",
+      "Show me seasonal drawdown time-series for station 293830098255501",
+      "Give me multi-month groundwater depletion curve for site 293830098255501"
+    ]
+  }
+]

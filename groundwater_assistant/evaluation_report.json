@@ -1,0 +1,419 @@
+{
+  "total_test_queries": 30,
+  "knn": {
+    "intent_accuracy": 0.8667,
+    "category_retrieval": {
+      "mean_p_at_1": 0.9333,
+      "mean_p_at_3": 0.8556,
+      "mean_p_at_5": 0.7333,
+      "mrr": 0.9567
+    },
+    "exact_record_retrieval": {
+      "mean_p_at_1": 0.8667,
+      "mean_p_at_3": 0.3333,
+      "mean_p_at_5": 0.2,
+      "mrr": 0.9333
+    }
+  },
+  "keyword_baseline": {
+    "intent_accuracy": 0.9,
+    "category_retrieval": {
+      "mean_p_at_1": 0.9,
+      "mean_p_at_3": 0.7333,
+      "mean_p_at_5": 0.6467,
+      "mrr": 0.9278
+    },
+    "exact_record_retrieval": {
+      "mean_p_at_1": 0.9,
+      "mean_p_at_3": 0.3333,
+      "mean_p_at_5": 0.2,
+      "mrr": 0.95
+    }
+  },
+  "group_summaries": [
+    {
+      "group_name": "Group 1: Indian Alluvial Lookups (Punjab / UP)",
+      "category": "depth",
+      "target_site": "CGWB-PB-LUD01",
+      "phrasings_count": 5,
+      "manual_check_pass_rate": 0.8,
+      "queries_evaluated": [
+        {
+          "query": "What is the groundwater level in Punjab Ludhiana?",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-PB-LUD01",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "How deep down is the water table in Ludhiana right now?",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-PB-LUD01",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Water table depth measurement for Ludhiana CGWB well",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-PB-LUD01",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Give me recent groundwater reading in Ludhiana Punjab",
+          "knn_intent": "location",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 0.0,
+          "resolved_site": "CGWB-PB-LUD01",
+          "base_intent": "location",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 0.0,
+          "manual_check": "REVIEW"
+        },
+        {
+          "query": "How deep is the tube well water in Ludhiana?",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-PB-LUD01",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        }
+      ]
+    },
+    {
+      "group_name": "Group 2: Arid Rajasthan Groundwater & Soil",
+      "category": "location",
+      "target_site": "CGWB-RJ-JOD01",
+      "phrasings_count": 5,
+      "manual_check_pass_rate": 1.0,
+      "queries_evaluated": [
+        {
+          "query": "Tell me about groundwater and soil moisture in Rajasthan",
+          "knn_intent": "location",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-RJ-JOD01",
+          "base_intent": "location",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "What is the soil moisture and water table in Jodhpur?",
+          "knn_intent": "location",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-RJ-JOD01",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 0.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Comprehensive groundwater and soil report for Jodhpur Rajasthan",
+          "knn_intent": "location",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-RJ-JOD01",
+          "base_intent": "location",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Check soil dryness and groundwater in Jodhpur",
+          "knn_intent": "location",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-RJ-JOD01",
+          "base_intent": "location",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Where is Jodhpur monitoring station and how is the soil?",
+          "knn_intent": "location",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-RJ-JOD01",
+          "base_intent": "location",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        }
+      ]
+    },
+    {
+      "group_name": "Group 3: Maharashtra Basalt Trend & Fluctuation",
+      "category": "trend",
+      "target_site": "CGWB-MH-PUN01",
+      "phrasings_count": 5,
+      "manual_check_pass_rate": 0.6,
+      "queries_evaluated": [
+        {
+          "query": "Show groundwater level trend over time in Pune Maharashtra",
+          "knn_intent": "trend",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-MH-PUN01",
+          "base_intent": "trend",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Monsoon recharge and water level trend in Pune Maharashtra",
+          "knn_intent": "trend",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-MH-PUN01",
+          "base_intent": "trend",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Has the water table been declining or rising in Pune?",
+          "knn_intent": "trend",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-MH-PUN01",
+          "base_intent": "trend",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "24 month water level fluctuations in Pune Deccan basalt",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 0.0,
+          "resolved_site": "CGWB-MH-PUN01",
+          "base_intent": "depth",
+          "base_cat_p1": 0.0,
+          "base_rec_p1": 0.0,
+          "manual_check": "REVIEW"
+        },
+        {
+          "query": "Hydrograph of water table changes for Pune station",
+          "knn_intent": "depth",
+          "knn_cat_p1": 0.0,
+          "knn_rec_p1": 0.0,
+          "resolved_site": "CGWB-MH-PUN01",
+          "base_intent": "trend",
+          "base_cat_p1": 0.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "REVIEW"
+        }
+      ]
+    },
+    {
+      "group_name": "Group 4: Potability & Quality Check in Gangetic Plain",
+      "category": "quality",
+      "target_site": "CGWB-UP-VAR01",
+      "phrasings_count": 5,
+      "manual_check_pass_rate": 1.0,
+      "queries_evaluated": [
+        {
+          "query": "Check drinking water potability in Varanasi Uttar Pradesh",
+          "knn_intent": "quality",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-UP-VAR01",
+          "base_intent": "quality",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Is groundwater safe for drinking in Varanasi UP?",
+          "knn_intent": "quality",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-UP-VAR01",
+          "base_intent": "quality",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "What are the pH, TDS, and nitrate levels in Varanasi water?",
+          "knn_intent": "quality",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-UP-VAR01",
+          "base_intent": "quality",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Check chemical potability and contamination status for Varanasi",
+          "knn_intent": "quality",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-UP-VAR01",
+          "base_intent": "quality",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Does Varanasi groundwater meet BIS drinking water standards?",
+          "knn_intent": "quality",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "CGWB-UP-VAR01",
+          "base_intent": "quality",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        }
+      ]
+    },
+    {
+      "group_name": "Group 5: US Central Valley Depth Lookups",
+      "category": "depth",
+      "target_site": "342500118250001",
+      "phrasings_count": 5,
+      "manual_check_pass_rate": 1.0,
+      "queries_evaluated": [
+        {
+          "query": "What is the current water level at well 342500118250001?",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "342500118250001",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "How deep down is the water in well 342500118250001 right now?",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "342500118250001",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Latest water table depth below surface for 342500118250001",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "342500118250001",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Give me the most recent water level reading for station 342500118250001",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "342500118250001",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "How far down do we have to drill to reach groundwater at 342500118250001?",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "342500118250001",
+          "base_intent": "depth",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        }
+      ]
+    },
+    {
+      "group_name": "Group 6: Historical Trend Disambiguation",
+      "category": "trend",
+      "target_site": "293830098255501",
+      "phrasings_count": 5,
+      "manual_check_pass_rate": 0.8,
+      "queries_evaluated": [
+        {
+          "query": "Show groundwater level trend over time for site 293830098255501",
+          "knn_intent": "trend",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "293830098255501",
+          "base_intent": "trend",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Has the water table been declining or rising in well 293830098255501?",
+          "knn_intent": "trend",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "293830098255501",
+          "base_intent": "trend",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Historical fluctuation chart of water level at Edwards Aquifer 293830098255501",
+          "knn_intent": "depth",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 0.0,
+          "resolved_site": "293830098255501",
+          "base_intent": "trend",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "REVIEW"
+        },
+        {
+          "query": "Show me seasonal drawdown time-series for station 293830098255501",
+          "knn_intent": "trend",
+          "knn_cat_p1": 1.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "293830098255501",
+          "base_intent": "trend",
+          "base_cat_p1": 1.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        },
+        {
+          "query": "Give me multi-month groundwater depletion curve for site 293830098255501",
+          "knn_intent": "trend",
+          "knn_cat_p1": 0.0,
+          "knn_rec_p1": 1.0,
+          "resolved_site": "293830098255501",
+          "base_intent": "trend",
+          "base_cat_p1": 0.0,
+          "base_rec_p1": 1.0,
+          "manual_check": "PASS"
+        }
+      ]
+    }
+  ]
+}

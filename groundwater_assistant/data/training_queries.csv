@@ -1,0 +1,84 @@
+query_text,intent,target_site_no
+What is the groundwater level in Punjab Ludhiana?,depth,CGWB-PB-LUD01
+How deep is the water table in Amritsar right now?,depth,CGWB-PB-AMR02
+Check groundwater depth in Karnal Haryana,depth,CGWB-HR-KAR01
+Current water table depth in Gurugram Gurgaon,depth,CGWB-HR-GUR02
+How far down is groundwater in New Delhi NCR?,depth,CGWB-DL-DEL01
+What is the water level in Jodhpur Rajasthan desert?,depth,CGWB-RJ-JOD01
+Check water depth in Jaipur Rajasthan,depth,CGWB-RJ-JAI02
+How deep is the well in Jaisalmer Thar desert?,depth,CGWB-RJ-JAI03
+Water level in Varanasi Uttar Pradesh Gangetic plain,depth,CGWB-UP-VAR01
+Current groundwater depth in Lucknow UP,depth,CGWB-UP-LUC02
+How deep is water table in Agra Uttar Pradesh?,depth,CGWB-UP-AGR03
+What is the water depth in Pune Maharashtra Deccan plateau?,depth,CGWB-MH-PUN01
+Check groundwater depletion in Solapur Marathwada,depth,CGWB-MH-SOL02
+Current water level in Nagpur Vidarbha Maharashtra,depth,CGWB-MH-NAG03
+How deep is groundwater table in Ahmedabad Gujarat?,depth,CGWB-GJ-AHM01
+Water table depth in Rajkot Saurashtra Gujarat,depth,CGWB-GJ-RAJ02
+What is the groundwater depth in Bengaluru Bangalore Karnataka?,depth,CGWB-KA-BLR01
+Check water level in Mysuru Mysore Karnataka,depth,CGWB-KA-MYS02
+How deep is groundwater in Chennai Tamil Nadu coastal well?,depth,CGWB-TN-CHE01
+Water table measurement in Coimbatore Tamil Nadu,depth,CGWB-TN-COI02
+Current water level in Hyderabad Telangana,depth,CGWB-TS-HYD01
+What is the groundwater depth in Kolkata West Bengal?,depth,CGWB-WB-KOL01
+How far down to hit groundwater in Patna Bihar?,depth,CGWB-BR-PAT01
+What is the water level in Kochi Ernakulam Kerala?,depth,CGWB-KL-ERN01
+Groundwater level in Indore Madhya Pradesh,depth,CGWB-MP-IND01
+Check water depth in Guwahati Assam Brahmaputra valley,depth,CGWB-AS-GUW01
+What is the soil moisture and water table in Punjab?,location,CGWB-PB-LUD01
+Tell me about groundwater and soil moisture in Rajasthan,location,CGWB-RJ-JOD01
+Soil moisture and drought condition in Jodhpur,location,CGWB-RJ-JOD01
+Give complete groundwater and soil moisture report for Maharashtra Pune,location,CGWB-MH-PUN01
+Check soil condition and water level in Solapur,location,CGWB-MH-SOL02
+What is the soil moisture in Kerala Ernakulam?,location,CGWB-KL-ERN01
+Is soil dry or moist in Gujarat Ahmedabad?,location,CGWB-GJ-AHM01
+Check soil moisture in Uttar Pradesh Varanasi,location,CGWB-UP-VAR01
+Soil moisture and groundwater level in Bengaluru Karnataka,location,CGWB-KA-BLR01
+Everything about groundwater and soil in Kolkata West Bengal,location,CGWB-WB-KOL01
+Full hydrological dossier for Delhi NCR,location,CGWB-DL-DEL01
+Check soil moisture and aquifer in Kamrup Assam,location,CGWB-AS-GUW01
+Soil moisture and agricultural water in Patna Bihar,location,CGWB-BR-PAT01
+What is the soil condition in Indore Madhya Pradesh?,location,CGWB-MP-IND01
+Tell me about groundwater and soil moisture in California,location,342500118250001
+What is the groundwater level and soil condition in Kern County?,location,342500118250001
+Give me complete groundwater and soil moisture report for Texas Bexar,location,293830098255501
+Show groundwater level trend over time in Punjab Ludhiana,trend,CGWB-PB-LUD01
+Is groundwater declining or rising in Amritsar?,trend,CGWB-PB-AMR02
+Show historical 24 month water fluctuation in Jodhpur Rajasthan,trend,CGWB-RJ-JOD01
+Plot historical time series hydrograph for Delhi NCR,trend,CGWB-DL-DEL01
+Monsoon recharge and water level trend in Pune Maharashtra,trend,CGWB-MH-PUN01
+Analyze water depletion history in Solapur drought zone,trend,CGWB-MH-SOL02
+Show water level changes over past 2 years in Varanasi UP,trend,CGWB-UP-VAR01
+Historical hydrograph for Bengaluru Bangalore Karnataka,trend,CGWB-KA-BLR01
+Long term groundwater trend in Chennai Tamil Nadu,trend,CGWB-TN-CHE01
+Water level trend curve in Kolkata West Bengal,trend,CGWB-WB-KOL01
+Has the water table changed historically in Ahmedabad Gujarat?,trend,CGWB-GJ-AHM01
+Seasonal fluctuation in Kochi Kerala,trend,CGWB-KL-ERN01
+Show groundwater level trend over time for site 01646500,trend,01646500
+Is the water table declining or rising in well 342500118250001?,trend,342500118250001
+Historical water level fluctuations for Edwards Aquifer well 293830098255501,trend,293830098255501
+Is groundwater safe for drinking in Ludhiana Punjab?,quality,CGWB-PB-LUD01
+"Check pH, nitrate and TDS for Delhi groundwater",quality,CGWB-DL-DEL01
+What is the water quality in Jodhpur Rajasthan?,quality,CGWB-RJ-JOD01
+Is there high salinity in Jaisalmer water?,quality,CGWB-RJ-JAI03
+Check drinking water potability in Varanasi Uttar Pradesh,quality,CGWB-UP-VAR01
+Water chemical test results for Pune Maharashtra,quality,CGWB-MH-PUN01
+Is water safe for consumption in Bengaluru Karnataka?,quality,CGWB-KA-BLR01
+Check coastal salinity and TDS in Chennai Tamil Nadu,quality,CGWB-TN-CHE01
+What is the water quality and potability in Kolkata?,quality,CGWB-WB-KOL01
+Is water pristine in Kochi Kerala?,quality,CGWB-KL-ERN01
+Check TDS and nitrate for Ahmedabad Gujarat,quality,CGWB-GJ-AHM01
+What is the water quality at site 01646500?,quality,01646500
+Is the groundwater safe for drinking in Kern County well 342500118250001?,quality,342500118250001
+"Show pH, nitrate, and conductivity measurements for well 293830098255501",quality,293830098255501
+Check total dissolved solids and nitrate concentration for 405012100123401,quality,405012100123401
+Where is monitoring station CGWB-PB-LUD01 located?,location,CGWB-PB-LUD01
+Find GPS coordinates of station in Jodhpur Rajasthan,location,CGWB-RJ-JOD01
+Which aquifer is tapped in Ludhiana Punjab?,location,CGWB-PB-LUD01
+Locate the monitoring station in Pune Maharashtra,location,CGWB-MH-PUN01
+What aquifer does Bengaluru well draw from?,location,CGWB-KA-BLR01
+Show latitude and longitude for Varanasi station,location,CGWB-UP-VAR01
+Where is groundwater monitoring station 01646500 located?,location,01646500
+Find the GPS coordinates and latitude longitude for well 342500118250001,location,342500118250001
+Which county and state does site 293830098255501 belong to?,location,293830098255501
+Where can I find the Floridan Aquifer monitoring well?,location,280255082260501

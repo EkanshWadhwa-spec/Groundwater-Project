@@ -1,0 +1,33 @@
+site_no,station_nm,sample_date,ph,specific_conductance_us_cm,total_dissolved_solids_mg_l,nitrate_mg_l,water_temperature_c,water_quality_assessment,epa_potability
+CGWB-PB-LUD01,CGWB Central Piezometer Station Ludhiana,2024-10-15,7.4,890,560,18.5,22.0,"Elevated Nitrate (Fertilizer Runoff, Treatment Advised)",Warning (High Nitrate)
+CGWB-PB-AMR02,Amritsar Border Belt Groundwater Station,2024-10-15,7.6,780,490,12.0,21.5,Acceptable Potability / Mild Hardness,Compliant
+CGWB-HR-KAR01,Karnal Agricultural Basin Monitoring Well,2024-10-15,7.8,920,580,14.2,23.0,Elevated Hardness and Nitrate,Requires Filtration
+CGWB-HR-GUR02,Gurugram Cyber City Deep Piezometer,2024-10-15,8.0,1350,840,9.5,24.2,High Total Dissolved Solids (Hard Water),High Mineralization
+CGWB-DL-DEL01,National Capital Region Central Station New Delhi,2024-10-15,7.7,1450,910,22.0,24.5,Elevated Nitrate & High TDS (Urban Leaching),Non-Compliant / Warning
+CGWB-RJ-JOD01,Jodhpur Marwar Arid Zone Observatory,2024-10-15,8.3,2100,1420,16.5,27.5,High Salinity & Brackish Ground Water,Non-Compliant (High TDS)
+CGWB-RJ-JAI02,Jaipur Ramgarh Basin Sentinel Station,2024-10-15,7.9,1280,790,11.0,26.0,"Moderate Salinity, Requires RO",Requires Treatment
+CGWB-RJ-JAI03,Jaisalmer Thar Deep Piezometer,2024-10-15,8.4,2400,1680,8.2,29.0,Deep Fossil Saline Water,Non-Compliant (Brackish)
+CGWB-UP-VAR01,Varanasi Gangetic Basin Monitoring Well,2024-10-15,7.3,480,310,3.8,24.0,"Pristine Gangetic Groundwater, Safe & Potable",Compliant (Safe for Drinking)
+CGWB-UP-LUC02,Lucknow Gomti Basin Piezometer,2024-10-15,7.5,540,345,5.2,24.5,"Good Quality, Potable",Compliant (Safe for Drinking)
+CGWB-UP-AGR03,Agra Yamuna Riverine Observation Well,2024-10-15,7.8,1100,690,8.4,25.2,Moderate Hardness,Acceptable / Mild Hardness
+CGWB-MH-PUN01,Pune Deccan Plateau Monitoring Station,2024-10-15,7.4,520,330,4.1,23.8,High Purity Basaltic Aquifer Water,Compliant (Safe for Drinking)
+CGWB-MH-SOL02,Solapur Marathwada Drought Sentinel Station,2024-10-15,7.9,1200,760,12.8,26.5,Moderate Saline Concentration,Requires Treatment
+CGWB-MH-NAG03,Nagpur Vidarbha Agro-Hydrological Well,2024-10-15,7.5,610,390,6.0,25.0,Standard Potable Quality,Compliant (Safe for Drinking)
+CGWB-GJ-AHM01,Ahmedabad Sabarmati Alluvial Well,2024-10-15,8.1,1380,860,10.5,26.2,Elevated Dissolved Solids,Requires Treatment
+CGWB-GJ-RAJ02,Rajkot Saurashtra Peninsula Station,2024-10-15,7.8,950,610,7.2,25.8,Mildly Hard Water,Acceptable
+CGWB-KA-BLR01,Bengaluru Urban Granitic Piezometer,2024-10-15,7.6,890,570,15.4,22.8,Elevated Nitrate from Urban Runoff,Warning (High Nitrate)
+CGWB-KA-MYS02,Mysuru Cauvery Basin Groundwater Station,2024-10-15,7.2,420,270,2.8,23.2,Pristine Cauvery Basin Water,Compliant (Safe for Drinking)
+CGWB-TN-CHE01,Chennai Coastal Aquifer Sentinel Well,2024-10-15,7.9,1600,980,8.0,27.0,High Electrical Conductance / Coastal Saline,Coastal Salinity Warning
+CGWB-TN-COI02,Coimbatore Noyyal Basin Deep Station,2024-10-15,7.7,910,580,11.2,25.4,Elevated Hardness,Requires Treatment
+CGWB-TS-HYD01,Hyderabad Deccan Granitic Station,2024-10-15,7.5,740,470,9.1,25.5,Standard Municipal Potability,Compliant (Safe for Drinking)
+CGWB-WB-KOL01,Kolkata Lower Ganga Delta Piezometer,2024-10-15,7.3,650,410,2.1,26.0,Fresh Deltaic Water (Arsenic Tested Safe),Compliant (Safe for Drinking)
+CGWB-BR-PAT01,Patna Gangetic Alluvial Station,2024-10-15,7.4,490,315,3.2,24.8,Abundant Potable Alluvial Water,Compliant (Safe for Drinking)
+CGWB-KL-ERN01,Ernakulam Kochi Coastal Observatory,2024-10-15,6.9,280,175,1.1,26.5,Pristine Natural Lateritic Spring Quality,Compliant (Safe for Drinking)
+CGWB-MP-IND01,Indore Malwa Plateau Groundwater Station,2024-10-15,7.5,630,405,5.8,24.2,Good Quality Drinking Water,Compliant (Safe for Drinking)
+CGWB-AS-GUW01,Guwahati Brahmaputra Alluvial Well,2024-10-15,7.1,310,195,1.4,23.5,High Purity Riverine Aquifer Water,Compliant (Safe for Drinking)
+342500118250001,Central Valley Aquifer Well 14-B,2024-10-15,8.1,1250,780,11.2,20.8,High Salinity & Nitrate (Exceeds EPA 10 mg/L),Non-Compliant / Warning
+293830098255501,J-17 Edwards Aquifer Index Well,2024-10-15,7.4,480,310,2.5,22.1,Good / Pristine Karst Water,Compliant
+280255082260501,Floridan Aquifer Coastal Sentinel Well,2024-10-15,7.8,390,240,0.9,23.4,High Purity / Low Mineralization,Compliant
+332450111584001,Phoenix Basin Alluvial Well 3,2024-10-15,8.2,1420,890,4.1,25.6,High Dissolved Solids / Mineralized,High Mineralization
+405012100123401,High Plains Ogallala Test Station 8,2024-10-15,7.6,620,410,6.8,15.2,Moderate Nitrate / Agricultural Influence,Compliant
+01646500,USGS Potom-Shenandoah Monitoring Well 1,2024-10-15,7.3,340,210,1.8,14.5,Good / Potable,Compliant
